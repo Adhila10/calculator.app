@@ -20,6 +20,9 @@ def square_root(a):
     import math
     return math.sqrt(a)
 
+def power(a):
+    return a**2
+
 
 
 num1 = int(input("Enter num1"))
@@ -30,3 +33,4 @@ print(f"{num1} - {num2} = {subtract(num1, num2)}")
 print(f"{num1} * {num2} = {multiply(num1, num2)}")
 print(f"{num1} / {num2} = {divide(num1, num2)}")
 print(f"square root = {square_root(num1)}")
+print(f"Power = {power(num1)}")
