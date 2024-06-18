@@ -16,6 +16,11 @@ def divide(a, b):
         return a / b
 
 
+def square_root(a):
+    import math
+    return math.sqrt(a)
+
+
 
 num1 = int(input("Enter num1"))
 num2 = int(input("Enter num2"))
@@ -24,3 +29,4 @@ print(f"{num1} + {num2} = {add(num1, num2)}")
 print(f"{num1} - {num2} = {subtract(num1, num2)}")
 print(f"{num1} * {num2} = {multiply(num1, num2)}")
 print(f"{num1} / {num2} = {divide(num1, num2)}")
+print(f"square root = {square_root(num1)}")
